@@ -1,0 +1,9 @@
+{
+  "name": "nodeBrisket",
+  "version": "1.0.0",
+  "description": "Cozza Brisket",
+  "main": "index.js",
+  "repository": "git@github.com:joeycozza/nodeBrisket.git",
+  "author": "Joey Cozza <joeycozza@gmail.com>",
+  "license": "MIT"
+}
