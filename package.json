@@ -1,15 +1,25 @@
 {
-  "name": "nodeBrisket",
+  "name": "nodebrisket",
   "version": "1.0.0",
-  "scripts": {
-    "flow": "flow; test $? -eq 0 -o $? -eq 2"}
-  },
-  "description": "Cozza Brisket",
+  "description": "Cozza Brisket Backend",
   "main": "index.js",
-  "repository": "git@github.com:joeycozza/nodeBrisket.git",
-  "author": "Joey Cozza <joeycozza@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "flow-bin": "^0.37.4"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeycozza/nodeBrisket.git"
+  },
+  "keywords": [
+    "node",
+    "brisket",
+    "api",
+    "REST"
+  ],
+  "author": "Joey Cozza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeycozza/nodeBrisket/issues"
+  },
+  "homepage": "https://github.com/joeycozza/nodeBrisket#readme"
 }
