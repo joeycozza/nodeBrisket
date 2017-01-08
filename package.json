@@ -1,9 +1,36 @@
 {
-  "name": "nodeBrisket",
+  "name": "nodebrisket",
   "version": "1.0.0",
-  "description": "Cozza Brisket",
+  "description": "Cozza Brisket Backend",
   "main": "index.js",
-  "repository": "git@github.com:joeycozza/nodeBrisket.git",
-  "author": "Joey Cozza <joeycozza@gmail.com>",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "flow-remove-types --pretty src/ --out-dir build/",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeycozza/nodeBrisket.git"
+  },
+  "keywords": [
+    "node",
+    "brisket",
+    "api",
+    "REST"
+  ],
+  "author": "Joey Cozza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeycozza/nodeBrisket/issues"
+  },
+  "homepage": "https://github.com/joeycozza/nodeBrisket#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.37.4"
+  }
 }
