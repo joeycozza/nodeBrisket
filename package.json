@@ -1,9 +1,15 @@
 {
   "name": "nodeBrisket",
   "version": "1.0.0",
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"}
+  },
   "description": "Cozza Brisket",
   "main": "index.js",
   "repository": "git@github.com:joeycozza/nodeBrisket.git",
   "author": "Joey Cozza <joeycozza@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.37.4"
+  }
 }
